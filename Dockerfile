@@ -1,4 +1,4 @@
-FROM ghcr.io/entropia/mediawiki-extension-bundle-base:main@sha256:1a38ca69eb6e480eebfcc4b714cf5ed69c3761fdb28bfb186d99942035297a86  AS extension-base
+FROM ghcr.io/entropia/mediawiki-extension-bundle-base:main@sha256:50d5b0907d72c1811cc5fd5551b92e820d45b0e10564babab891d9985f9167e8  AS extension-base
 
 FROM mediawiki:1.43.11@sha256:6b24a06db8d66f4fc8dd0f664375cc9d03a556b521c79fce1474e45225580548
 
