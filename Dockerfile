@@ -1,6 +1,6 @@
 FROM ghcr.io/entropia/mediawiki-extension-bundle-base:main@sha256:79b6219d50379cd6fe9a315406e4878e74a69480063fae607722f6c6915188f2 AS extension-base
 
-FROM mediawiki:1.43.11@sha256:9692cc01b83b4b0f9d775b0ac16ec681578f6c47fb5e67c59e6a9c204442b9f7
+FROM mediawiki:1.43.11@sha256:491be985fd966e97b7df2d2dbd1bb005fa5e26924693de22fc4c8e52c536357c
 
 RUN a2enmod remoteip rewrite
 
